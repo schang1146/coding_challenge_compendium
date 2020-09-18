@@ -1,3 +1,6 @@
 # Bye-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+
+# Ignore .vscode
+.vscode/
