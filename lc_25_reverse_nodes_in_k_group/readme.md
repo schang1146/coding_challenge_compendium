@@ -1,22 +1,24 @@
-# [{#\_insert_title}]({#_insert_link_to_problem})
+# [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
-<span style="color:orange">{#\_insert_difficulty}</span>
+<span style="color:red">Hard</span>
 
-{#\_insert_problem_description}
+Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
+
+k is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of k then left-out nodes in the end should remain as it is.
 
 **Example:**
 
-<pre>
+Given this linked list: `1->2->3->4->5`
 
-{#_insert_problem_example}
+For k = 2, you should return: `2->1->4->3->5`
 
-</pre>
+For k = 3, you should return: `3->2->1->4->5`
 
 **Constraints:**
 
--   1 ≤ nums.length ≤ 2 \* 10<sup>4</sup>
--   0 ≤ nums[i] ≤ 2<sup>31</sup> - 1
+-   Only constant extra memory is allowed.
+-   You may not alter the values in the list's nodes, only nodes itself may be changed.
 
 ---
 
-**Related Topics:** `Array` `Trie` `Etc.`
+**Related Topics:** `Linked List`
