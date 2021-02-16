@@ -4,3 +4,7 @@ __pycache__/
 
 # Ignore .vscode
 .vscode/
+
+# Javascript environment
+node_modules/
+yarn.lock
